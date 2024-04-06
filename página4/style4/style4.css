@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Notable&family=Pavanam&family=Paytone+One&display=swap');
+
+:root{
+    --cor0: #FEE28E;
+    --cor1: #F5733D;
+    --cor2: #9D180B;
+
+    --font-titulos: 'Paytone One', cursive;
+    --font-padrao: 'Pavanam', cursive;
+    --font-especial: 'Bungee', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-padrao);
+    background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+}
+
+#contai {
+    text-align: justify;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 30px;  
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    background-color: rgba(255, 255, 0, 0.13);
+}
+
+.container {
+    margin: -30px;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.container > h1 {
+    font-family: var(--font-titulos);
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+    margin: -20px -20px 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.473);
+}
+
+.filho {
+    padding: 20px;
+    margin: auto;
+    
+
+}
+
+.filho > h2 {
+    color: white;
+    font-family: var(--font-especial);
+    font-weight: lighter;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.486);
+    text-align: center;
+}
+
+.filho > p {
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 1.3em;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 5px 30px;
+   
+}
+
+.imagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 350px;
+    background-color: rgba(92, 91, 91, 0.068);
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.137);
+    margin: 30px auto;
+    padding-left: 50px;
+}
+
+aside {
+    border-radius: 15px;
+    margin: 20px 50px;
+    width: auto;
+    background-color: rgba(92, 91, 91, 0.068);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    color: white;
+    
+}
+
+aside > h2 {
+    font-family: var(--font-especial);
+    text-align: left;
+    font-size: 1.2em;
+    margin: 0 10px;
+    text-shadow: 2px 7px rgba(0, 0, 0, 0.486);
+}
+
+aside > p {
+    text-indent: 1.5em;
+    padding: 10px;
+}
+.lista {
+    margin-bottom: 10px;
+}
+aside > ul {
+    list-style-position: inside;
+    list-style-type: '\1F5F8\00A0';
+    columns: 1;
+    margin: auto;
+    padding: 10px;
+}
+
+.container_2 {
+    margin: 0px -30px -30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 20px;
+    color: white;
+} 
+
+.container_2 h2 {
+    font-family: var(--font-especial);
+    margin: 0px 20px;
+    font-size: 1.4em;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.486);
+}
+
+.container_2 p {
+    text-indent: 2em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    padding: 0px 30px;
+}
+
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+button {
+    font-family: var(--font-especial);
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    box-shadow: 7px 7px black;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+
+button:hover{
+    font-size: 1.7em;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    box-shadow: -5px -5px 6px 6px var(--cor1);
+}
+
+footer a{ 
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
